@@ -1,0 +1,31 @@
+
+.navbar-brand{
+	 font-style: oblique;
+}
+
+
+.carouselExampleSlidesOnly{
+	
+	position: -webkit-sticky; /* Safari */
+    position: sticky;
+}
+.carousel-item{ 
+   height: 520px;
+   
+}
+
+
+.carousel-item:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.4);
+}
+.signup{
+	
+	height: 300px;
+}

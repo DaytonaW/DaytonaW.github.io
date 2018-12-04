@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Match Whiz</title>
+</head>
+
+<body>
+  <!-- START HERE -->
+	<nav class="navbar navbar-expand-sm navbar-light p-0">
+	  <div class="container">
+	   <a class="navbar-brand text-danger" href="index.html"><i class='fas fa-heart'></i>Match Whiz</a>
+		
+	  </div>
+	</nav>
+    <!--Header-->
+	<header id="main-header" class=" bg-secondary text-white  ">
+	    <div class="container">
+		 <div class="row">
+		  <div class= "col-9 ">
+		   <h3 class=" font-italic py-4 pl-8">Your perfect mate has been here all along</h3>
+		  </div>
+          		<div class= "col-3 ">
+		   <h1 class="py-4 "><i class="fas fa-user-square"></i></h1>
+		  </div>		
+		 </div>  
+		 </div>
+		</div>
+	 </header>
+	 <!--Actions-->
+	<section id="actions" class=" py-4 mb-4 bg-light">
+	    <div class="container">
+		 <div class="row">
+		  
+		</div>
+		</div>
+	 </section>
+	 <!--Login-->
+	<section id="login">
+	    <div class="container">
+		 <div class="row">
+		  <div class= "col-md-6 mx-auto">
+		   <div class="card">
+		    <div class="card-header bg-danger text-white">
+		     <h4>Account Login</h4>
+			</div>
+			 <div class="card-body">
+		       <form action="index.html">
+               <div class="form-group">
+                <label for="name">Username</label>
+				<input type="text" class="form-control">
+			   </div>
+			   <div class="form-group">
+                <label for="password">Password</label>
+				<input type="text" class="form-control">
+			   </div>
+			   <input type="submit" value="Login" class="btn btn-danger btn-block">
+		      </form>
+			  </div>
+			  </div>
+			 </div>
+			</div>
+			</div>
+	  </section>
+	  <div id="join" class="text-center my-4">
+	    <a href="#" class="font-italic " data-toggle='modal' data-target="#signUpModal">Not a member?</a>
+	  <div>
+		<!--Footer-->
+	  <footer id="main-footer"class="text-center p-4">
+	    <div class="container">
+		    <div class="row">
+		     <div class= "col">
+			     <p class="font-italic"> Copywright &copy; <span id="year"></span><i class="fas fa-heart"></i>Match Whiz</p>
+          </div>		
+		</div>
+		 </div>
+		</footer>
+	   <!-- Sign Up Modal-->
+		<div class="modal fade" id="signUpModal">
+	     <div class="modal-dialog modal-lg">
+		  <div class="modal-content">
+		   <div class="modal-header bg-danger text-white">
+		     <h5 class='modal-title'>Sign Up Now</h5>
+		     <button class="close" data-dismiss="modal">
+			  <span>&times;</span>
+			 </button>
+			</div>
+			<div class="modal-body">
+			  <form>
+               <div class="form-group">
+                <label for="name">Name</label>
+				<input type="text" class="form-control">
+			   </div>
+			   <div class="form-group">
+                <label for="email">Email</label>
+				<input type="text" class="form-control">
+			   </div>
+			   <div class="form-group">
+                <label for="password">Password</label>
+				<input type="text" class="form-control">
+			   </div>
+			   <div class="form-group">
+                <label for="password2">Confirm Password</label>
+				<input type="text" class="form-control">
+			   </div>
+		      </form>
+			 </div>
+		  <div class='modal-footer'>
+		   <button class="btn btn-danger" data-dismiss='modal'>Submit</button>
+		   
+		   </div>
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+   <script src="https://cdn.ckeditor.com/4.11.1/standard/ckeditor.js"></script>
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+	
+  </script>
+</body>
+
+</html>
